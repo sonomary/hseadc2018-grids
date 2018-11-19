@@ -1,0 +1,17 @@
+.gridcontainer{
+  display: grid;
+  grid-template-columns: repeat(14,1fr);
+  grid-column-gap: 12px;
+  width: calc(100%-80px)
+  height: 100vh;
+}
+
+.gridContainer figure{
+  /* grid-column-start: 1;
+  grid-column-end: 5; */
+  background: red;
+  grid-column: 1/6;
+  grid-row: 2 / 3;
+  background: red;
+
+}
