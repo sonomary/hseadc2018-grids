@@ -65,5 +65,9 @@
             "m h h h h h h h h h"
             "c c c c c c c c c c"
             "f f f f f f f f f f";
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
     }
 }
